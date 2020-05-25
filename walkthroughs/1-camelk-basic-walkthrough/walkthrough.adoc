@@ -4,7 +4,7 @@
 :amq-documentation-url: https://access.redhat.com/documentation/en-us/red_hat_amq/{amq-version}/
 
 //attributes
-:title: 1 - Create and deploy your first Apache Camel K Integration
+:title: 1 - Create and deploy your first Apache Camel K Integration using FCC.
 :standard-fail-text: Verify that you followed all the steps. If you continue to have issues, contact your administrator.
 :bl: pass:[ +]
 
