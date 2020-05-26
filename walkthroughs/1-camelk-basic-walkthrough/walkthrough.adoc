@@ -35,9 +35,8 @@ Try the steps again. If it's still not working contact your administrator.
 IDE or follow instructions
 
 // include FCC content here
-//include::/home/gforde/mygit/integration/docs/camel-k/deploying-on-ocp/modules/camel-k/p_deploying-basic-integration.adoc[leveloffset=+1]
-
 include::p_deploying-basic-integration.adoc[leveloffset=+2]
+include::test123.adoc[]
 
 == Find Your Running Camel K Integration
 Follow these steps to verify...
