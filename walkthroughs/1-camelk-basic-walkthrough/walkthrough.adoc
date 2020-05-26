@@ -1,38 +1,45 @@
-// Metadata created by nebel
-//
-// ParentAssemblies: assemblies/camel-k/as_camel-k-developer-tutorials.adoc
+= Creating a basic Camel K route (FCC)
 
-[id="deploying-basic-integration"]
-= Deploying a basic Camel K Java integration
-// Start the title of a procedure module with a verb, such as Creating or Create. See also _Wording of headings_ in _The IBM Style Guide_.
+// This is a template meant to be used as a starting point for walkthrough development
+Welcome! In this tutorial, we'll write a quick PHP program to display "Hello, world!" to the console.
 
-This tutorial demonstrates how to run a simple Java integration in the cloud on OpenShift, apply configuration and routing, and run an integration as a Kubernetes CronJob.
+[type=walkthroughResource,serviceName=openshift]
+.Red Hat OpenShift
+****
+* link:{openshift-host}/console[Console, window="_blank"]
+* link:https://help.openshift.com/[Openshift Online Help Center, window="_blank"]
+* link:https://blog.openshift.com/[Openshift Blog, window="_blank"]
+****
 
-.Prerequisites
+[time=15]
+== Creating a Hello World example using PHP
 
-* See the tutorial readme in GitHub: link:https://github.com/openshift-integration/camel-k-example-basic[].
-* You must have cluster administrator access to an OpenShift 4.3 cluster to install Camel K. See xref:installing-camel-k-operatorhub[].
-* You must have the `kamel` command installed. See xref:installing-camel-k-client-tool[].
-* Visual Studio (VS) Code is optional but recommended for the best developer experience. See xref:setting-up-environment[].
+// Subtasks are not required. 
+// For simple walkthroughs, create your procedure under tasks.
 
-.Procedure
+//=== Subtask Title
 
-. Clone the tutorial Git repository:
-+ 
-[source,bash]
+. Open a new Terminal window.
+. Create a new sub-folder in your home folder `mkdir ~/MyTestProject`
+. Create a file named `touch hello-world.php`
+. Open the `hello-world.php` file in your file editor.
+. Add the following text:
+[source,php]
 ----
-$ git clone git@github.com:openshift-integration/camel-k-example-basic.git
+<p>
+<?php echo "Hello, World!"; ?>
+</p>
 ----
-. In the VS Code navigation tree, right-click the `readme.didact.md` file and select *Didact: Start Didact Tutorial from File*. For example: 
-+
-image::images/camel-k/camel-k-quickstart-didact.png[Starting the Camel K Quickstart tutorial]
-+
-This opens a new Didact tab in VS Code to display the tutorial instructions. 
+. Save `hello-world.php`.
+. In the terminal window, enter the following command:
+----
+php hello-world.php
+----
 
-. Follow the tutorial instructions and click the provided links to run the commands automatically. 
-+
-Alternatively, if you do not have VS Code installed with the Didact extension, you can manually enter the commands from link:https://github.com/openshift-integration/camel-k-example-basic[].
+[type=verification]
+====
+Did it you see `Hello, World!` displayed in the console?
+====
 
-.Additional resources
-
-* xref:writing-camel-k-integrations-in-java[]
+[type=verificationFail]
+Try the steps again. If it's still not working contact your administrator.
