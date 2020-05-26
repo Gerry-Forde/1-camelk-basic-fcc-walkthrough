@@ -22,7 +22,6 @@ Welcome! In this tutorial, we'll write a quick PHP program to display "Hello, wo
 
 . Go to the OpenShift console
 . Create a new project named...
-----
 
 [type=verification]
 ====
