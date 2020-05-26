@@ -12,28 +12,16 @@ Welcome! In this tutorial, we'll write a quick PHP program to display "Hello, wo
 ****
 
 [time=15]
-== Creating a Hello World example using PHP
+== Creating a Project
+// This is where I want step 1
 
 // Subtasks are not required. 
 // For simple walkthroughs, create your procedure under tasks.
 
 //=== Subtask Title
 
-. Open a new Terminal window.
-. Create a new sub-folder in your home folder `mkdir ~/MyTestProject`
-. Create a file named `touch hello-world.php`
-. Open the `hello-world.php` file in your file editor.
-. Add the following text:
-[source,php]
-----
-<p>
-<?php echo "Hello, World!"; ?>
-</p>
-----
-. Save `hello-world.php`.
-. In the terminal window, enter the following command:
-----
-php hello-world.php
+. Go to the OpenShift console
+. Create a new project named...
 ----
 
 [type=verification]
@@ -43,3 +31,9 @@ Did it you see `Hello, World!` displayed in the console?
 
 [type=verificationFail]
 Try the steps again. If it's still not working contact your administrator.
+
+== Creating your project in VS Code or your Preferred IDE (FCC content)
+IDE or follow instructions
+
+== Find Your Running Camel K Integration
+Follow these steps to verify...
