@@ -48,7 +48,7 @@ include::test123.adoc[]
 //
 // ParentAssemblies: assemblies/camel-k/as_camel-k-developer-tutorials.adoc
 
-[id="deploying-basic-integration"]
+//[id="deploying-basic-integration"]
 == Deploying a basic Camel K Java integration
 // Start the title of a procedure module with a verb, such as Creating or Create. See also _Wording of headings_ in _The IBM Style Guide_.
 
