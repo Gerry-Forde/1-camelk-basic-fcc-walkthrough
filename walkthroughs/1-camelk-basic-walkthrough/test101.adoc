@@ -9,4 +9,4 @@ include::installation.adoc[]
 
 include::example.adoc[]
 
-include::https://raw.githubusercontent.com/asciidoctor/asciidoctor/master/README.adoc[]
+link::https://raw.githubusercontent.com/asciidoctor/asciidoctor/master/README.adoc
