@@ -1,0 +1,12 @@
+= Reference Documentation
+Lead Developer
+
+This is documentation for project X.
+
+include::basics.adoc[]
+
+include::installation.adoc[]
+
+include::example.adoc[]
+
+link::https://raw.githubusercontent.com/asciidoctor/asciidoctor/master/README.adoc
